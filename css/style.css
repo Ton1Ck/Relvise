@@ -126,7 +126,7 @@ body {
 	line-height: 171%;
 	font-weight: 600;
 }
-,.menu__link:hover{
+.menu__link:hover{
 	text-decoration: underline;
 }
 /* PAGE========================================== */
@@ -140,13 +140,11 @@ body {
 	position: relative;
 	z-index: 2;
 }
-.page__whoweare {
-}
+
 .page__clients:not(:last-child) {
 	margin: 0px 0px 10px 0px;
 }
-.page__contact {
-}
+
 
 /* HEADER-BLOCK========================================== */
 .header-block {
@@ -882,7 +880,9 @@ item-getintouch__email:hover{
 	padding: 80px 15px;
 }
 @media (max-width:992px) {
-	padding: 50px 15px;
+	.item-getintouch_active{
+		padding:50px 15px;
+	}	
 }
 .item-getintouch_active .item-getintouch__button{
 	border: 1px solid #fff;
@@ -947,8 +947,7 @@ item-getintouch__email:hover{
 }
 
 /* Footer ========================================== */
-.footer {
-}
+
 .footer__top {
 	background: #17213C;
 	padding: 35px 0;
@@ -994,12 +993,9 @@ item-getintouch__email:hover{
 }
 .footer__menu {
 	font-weight: 600;
-	font-size: ;
+	font-size: 14px;
 }
-.menu-footer {
-}
-.menu-footer__list {
-}
+
 .menu-footer__item:not(:last-child) {
 	margin: 0px 0px 10px 0px;
 }
